@@ -1,0 +1,31 @@
+.role {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 4fr 3fr 2fr 3fr;
+
+  &--name,
+  &--super-role,
+  &--users,
+  &--buttons {
+    display: inline;
+    border: dashed aqua 2px;
+  }
+
+  &--name {
+    text-align: left;
+  }
+
+  &--super-role {
+    text-align: center;
+  }
+
+  &--users {
+    text-align: center;
+  }
+
+  &--buttons {
+    text-align: right;
+  }
+
+
+}

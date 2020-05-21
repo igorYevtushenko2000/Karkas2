@@ -1,0 +1,26 @@
+.user {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 4fr 3fr 3fr 2fr;
+
+  &--name,
+  &--role,
+  &--password,
+  &--buttons {
+    display: inline;
+    border: dashed aqua 2px;
+  }
+
+  &--name {
+    text-align: left;
+  }
+  &--role {
+    text-align: center;
+  }
+  &--password {
+    text-align: center;
+  }
+  &--buttons {
+    text-align: right;
+  }
+}

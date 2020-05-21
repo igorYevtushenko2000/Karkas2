@@ -1,0 +1,24 @@
+.group-info {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+
+  &--name,
+  &--description,
+  &--buttons {
+    display: inline;
+    border: dashed aqua 2px;
+  }
+
+  &--name {
+    text-align: left;
+  }
+
+  &--description {
+    text-align: center;
+  }
+
+  &--buttons {
+    text-align: right;
+  }
+}

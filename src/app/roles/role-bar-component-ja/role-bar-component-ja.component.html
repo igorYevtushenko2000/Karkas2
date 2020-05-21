@@ -1,31 +1,60 @@
-<!-- ja -->
-<div class="role-bar">
-  <div class="role-bar-info">
+<!--&lt;!&ndash; ja &ndash;&gt;-->
+<!--<div class="role-bar">-->
+<!--  <div class="role-bar-info">-->
 
-    <div class="role-bar--name icon-with-label">
-      <i class="role-name iconLabel--icon"></i>
-      <p class="product-bar--name-label iconLabel--text">Role name</p>
-    </div>
+<!--    <div class="role-bar&#45;&#45;name icon-with-label">-->
+<!--      <i class="role-name iconLabel&#45;&#45;icon"></i>-->
+<!--      <p class="product-bar&#45;&#45;name-label iconLabel&#45;&#45;text">Role name</p>-->
+<!--    </div>-->
 
-    <div class="role-bar--super-admin">
-      <input type="checkbox" [hidden]="false">
-      <p class="role-bar--super-admin-label iconLabel--text" [hidden]="false">Super Admin</p>
-    </div>
+<!--    <div class="role-bar&#45;&#45;super-admin">-->
+<!--      <input type="checkbox" [hidden]="false">-->
+<!--      <p class="role-bar&#45;&#45;super-admin-label iconLabel&#45;&#45;text" [hidden]="false">Super Admin</p>-->
+<!--    </div>-->
 
-    <div class="role-bar--total-user">
-      <i class="role-user iconLabel--icon" [hidden]="false"></i>
-      <p class="role-bar--total-user-label iconLabel--text" [hidden]="false">50</p>
-    </div>
+<!--    <div class="role-bar&#45;&#45;total-user">-->
+<!--      <i class="role-user iconLabel&#45;&#45;icon" [hidden]="false"></i>-->
+<!--      <p class="role-bar&#45;&#45;total-user-label iconLabel&#45;&#45;text" [hidden]="false">50</p>-->
+<!--    </div>-->
 
-    <div class="role-bar--buttons">
-      <button class="role-bar--buttons-info button b-aqua icon-button" [hidden]="false">Info</button>
-      <button class="role-bar--buttons-edit button b-aqua icon-button" [hidden]="false">edit</button>
-      <button class="role-bar--buttons-agree button b-aqua icon-button" [hidden]="true">Agree</button>
-      <button class="role-bar--buttons-delete button b-red icon-button" [hidden]="false">delete</button>
-      <button class="role-bar--buttons-cancel button b-red icon-button" [hidden]="true">Cancel</button>
-    </div>
+<!--    <div class="role-bar&#45;&#45;buttons">-->
+<!--      <button class="role-bar&#45;&#45;buttons-info button b-aqua icon-button" [hidden]="false">Info</button>-->
+<!--      <button class="role-bar&#45;&#45;buttons-edit button b-aqua icon-button" [hidden]="false">edit</button>-->
+<!--      <button class="role-bar&#45;&#45;buttons-agree button b-aqua icon-button" [hidden]="true">Agree</button>-->
+<!--      <button class="role-bar&#45;&#45;buttons-delete button b-red icon-button" [hidden]="false">delete</button>-->
+<!--      <button class="role-bar&#45;&#45;buttons-cancel button b-red icon-button" [hidden]="true">Cancel</button>-->
+<!--    </div>-->
 
+<!--  </div>-->
+<!--</div>-->
+
+<div class="role">
+
+  <div class="role--name">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">manager</span>
+    <input type="text" [hidden]="true" />
   </div>
+
+  <div class="role--super-role">
+    <input type="checkbox" [hidden]="true"/>
+    <span [hidden]="false">Super role</span>
+  </div>
+
+  <div class="role--users">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">1234</span>
+  </div>
+
+  <div class="role--buttons">
+    <input class="" type="button" [hidden]="false" value="Info">
+    <input class="" type="button" [hidden]="false" value="Edit">
+    <input class="" type="button" [hidden]="false" value="Delete">
+    <input class="" type="button" [hidden]="true" value="Agree">
+    <input class="" type="button" [hidden]="true" value="Cancel">
+  </div>
+
 </div>
+
 
 

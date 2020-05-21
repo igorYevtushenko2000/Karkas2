@@ -1,23 +1,50 @@
-<!-- ga -->
-<div class="user-bar">
-  <div class="user-bar-info">
-    <div class="user-bar--name-label icon-with-label">
-      <i class="ma-user iconLabel--icon"></i>
-      <p class="user-bar--name iconLabel--text">Name</p>
-    </div>
-    <div>
-      <i class="us-role iconLabel--icon"></i>
-      <p class="user-bar--loader iconLabel--text">Role</p>
-    </div>
-    <div>
-      <i class="us-password iconLabel--icon"></i>
-      <p class="user-bar--password iconLabel--text">Password</p>
-    </div>
-    <div class="user-bar--buttons">
-      <button class="user-bar--edit button b-aqua icon-button">edit</button>
-      <button class="user-bar--buttons-delete button b-red icon-button">delete</button>
-    </div>
+<!--&lt;!&ndash; ga &ndash;&gt;-->
+<!--<div class="user-bar">-->
+<!--  <div class="user-bar-info">-->
+<!--    <div class="user-bar&#45;&#45;name-label icon-with-label">-->
+<!--      <i class="ma-user iconLabel&#45;&#45;icon"></i>-->
+<!--      <p class="user-bar&#45;&#45;name iconLabel&#45;&#45;text">Name</p>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--      <i class="us-role iconLabel&#45;&#45;icon"></i>-->
+<!--      <p class="user-bar&#45;&#45;loader iconLabel&#45;&#45;text">Role</p>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--      <i class="us-password iconLabel&#45;&#45;icon"></i>-->
+<!--      <p class="user-bar&#45;&#45;password iconLabel&#45;&#45;text">Password</p>-->
+<!--    </div>-->
+<!--    <div class="user-bar&#45;&#45;buttons">-->
+<!--      <button class="user-bar&#45;&#45;edit button b-aqua icon-button">edit</button>-->
+<!--      <button class="user-bar&#45;&#45;buttons-delete button b-red icon-button">delete</button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="user">
+
+  <div class="user--name">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">Maksym Slobodianyk</span>
+    <input type="text" [hidden]="true">
   </div>
+
+  <div class="user--role">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">manager</span>
+    <input type="checkbox" [hidden]="true">
+  </div>
+
+  <div class="user--password">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">****************</span>
+    <input type="text" [hidden]="true">
+  </div>
+
+  <div class="user--buttons">
+    <input type="button" [hidden]="false" value="EDIT"/>
+    <input type="button" [hidden]="false" value="DELETE"/>
+    <input type="button" [hidden]="true" value="AGREE"/>
+    <input type="button" [hidden]="true" value="CANCEL"/>
+  </div>
+
 </div>
-
-

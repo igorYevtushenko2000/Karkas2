@@ -1,0 +1,21 @@
+.permission {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+
+  &--name,
+  &--super {
+    display: inline;
+    border: dashed aqua 2px;
+  }
+
+  &--name {
+    text-align: left;
+  }
+
+  &--super {
+    text-align: right;
+  }
+
+
+}

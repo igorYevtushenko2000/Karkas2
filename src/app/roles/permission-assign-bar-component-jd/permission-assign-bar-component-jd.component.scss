@@ -1,0 +1,21 @@
+.permission {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+
+  &--name,
+  &--buttons {
+    display: inline;
+    border: dashed aqua 2px;
+  }
+
+  &--name {
+    text-align: left;
+  }
+
+  &--buttons {
+    text-align: right;
+  }
+
+
+}

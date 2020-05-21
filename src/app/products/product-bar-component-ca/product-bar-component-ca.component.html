@@ -1,40 +1,64 @@
-<div class="product-bar">
-  <div class="product-bar-info">
-    <!--icon + productName-->
-    <div class="product-bar--name icon-with-label">
-      <i class="prod-name iconLabel--icon"></i>
-      <p class="product-bar--name-label iconLabel--text">Group name</p>
-    </div>
-    <!--icon + groupName-->
-    <div class="product-bar--group-name">
-      <i class="prod-gr-name iconLabel--icon"></i>
-      <p class="product-bar--group-name-label iconLabel--text">Group name</p>
-    </div>
-    <!--icon + amount | icon + cost | icon + totalCost-->
-    <div>
+<!--<div class="product-bar">-->
+<!--  <div class="product-bar-info">-->
+<!--    &lt;!&ndash;icon + productName&ndash;&gt;-->
+<!--    <div class="product-bar&#45;&#45;name icon-with-label">-->
+<!--      <i class="prod-name iconLabel&#45;&#45;icon"></i>-->
+<!--      <p class="product-bar&#45;&#45;name-label iconLabel&#45;&#45;text">Group name</p>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;icon + groupName&ndash;&gt;-->
+<!--    <div class="product-bar&#45;&#45;group-name">-->
+<!--      <i class="prod-gr-name iconLabel&#45;&#45;icon"></i>-->
+<!--      <p class="product-bar&#45;&#45;group-name-label iconLabel&#45;&#45;text">Group name</p>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;icon + amount | icon + cost | icon + totalCost&ndash;&gt;-->
+<!--    <div>-->
 
-      <div class="product-bar--amount">
-        <i class="prod-amount iconLabel--icon"></i>
-        <p class="product-bar--amount-label iconLabel--text">Amount</p>
-      </div>
+<!--      <div class="product-bar&#45;&#45;amount">-->
+<!--        <i class="prod-amount iconLabel&#45;&#45;icon"></i>-->
+<!--        <p class="product-bar&#45;&#45;amount-label iconLabel&#45;&#45;text">Amount</p>-->
+<!--      </div>-->
 
-      <div class="product-bar--cost">
-        <i class="prod-amount iconLabel--icon"></i>
-        <p class="product-bar--cost-label iconLabel--text">Amount</p>
-      </div>
+<!--      <div class="product-bar&#45;&#45;cost">-->
+<!--        <i class="prod-amount iconLabel&#45;&#45;icon"></i>-->
+<!--        <p class="product-bar&#45;&#45;cost-label iconLabel&#45;&#45;text">Amount</p>-->
+<!--      </div>-->
 
-      <div>
-        <i class="prod-total-cost iconLabel--icon"></i>
-        <p class="product-bar--total-cost iconLabel--text">Total Cost</p>
-      </div>
+<!--      <div>-->
+<!--        <i class="prod-total-cost iconLabel&#45;&#45;icon"></i>-->
+<!--        <p class="product-bar&#45;&#45;total-cost iconLabel&#45;&#45;text">Total Cost</p>-->
+<!--      </div>-->
 
-    </div>
-    <!--btnInfo-->
-    <div class="product-bar--buttons">
-      <button class="product-bar--edit button b-aqua icon-button">edit</button>
-      <button class="product-bar--delete button b-red icon-button">delete</button>
-    </div>
+<!--    </div>-->
+<!--    &lt;!&ndash;btnInfo&ndash;&gt;-->
+<!--    <div class="product-bar&#45;&#45;buttons">-->
+<!--      <button class="product-bar&#45;&#45;edit button b-aqua icon-button">edit</button>-->
+<!--      <button class="product-bar&#45;&#45;delete button b-red icon-button">delete</button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="product">
+  <div class="product--name">
+      <span [hidden]="false"><img src="assets/images/icon.png"></span>
+      <span [hidden]="false">Молоко Могилянське</span>
+  </div>
+
+  <div class="product--group">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">Продовольчі товари</span>
+  </div>
+
+  <div class="product--info">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">33</span>
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">123</span>
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">4059</span>
+  </div>
+
+  <div class="product--button">
+    <input type="button" value="INF" />
   </div>
 </div>
-
 

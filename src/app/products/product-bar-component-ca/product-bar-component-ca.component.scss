@@ -1,0 +1,29 @@
+.product {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 3fr 1fr;
+
+  &--name,
+  &--group,
+  &--info,
+  &--button {
+    display: inline;
+    border: dashed aqua 2px;
+  }
+
+  &--name {
+    text-align: left;
+  }
+
+  &--group {
+    text-align: center;
+  }
+
+  &--info {
+    text-align: center;
+  }
+
+  &--button {
+    text-align: right;
+  }
+}

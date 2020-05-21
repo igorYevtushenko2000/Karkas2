@@ -1,22 +1,29 @@
-<!-- ea -->
-<div class="manufacture-bar">
-  <div class="manufacture-bar-info">
-    <div class="manufacture-bar--name icon-with-label">
-      <i class="ma-user iconLabel--icon"></i>
-      <p class="manufacture-bar--name-label iconLabel--text" [hidden]="false">Name</p>
-      <input type="text" [hidden]="true">
-    </div>
-    <div class="manufacture-bar--amount">
-      <i class="ma-amount iconLabel--icon" [hidden]="false"></i>
-      <p class="manufacture-bar--amount-label iconLabel--text" [hidden]="false">штуки</p>
-    </div>
-    <div class="user-bar--buttons">
-      <button class="user-bar--buttons-edit button b-aqua icon-button" [hidden]="false">edit</button>
-      <button class="user-bar--buttons-agree button b-aqua icon-button" [hidden]="true">Agree</button>
-      <button class="user-bar--buttons-delete button b-red icon-button" [hidden]="false">delete</button>
-      <button class="user-bar--buttons-cancel button b-red icon-button" [hidden]="true">Cancel</button>
-    </div>
+<div class="manufacture">
+  <!--  <div class="manufacture&#45;&#45;row">-->
+
+  <div class="manufacture--name">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">Ford</span>
+    <input [hidden]="true">
   </div>
+
+  <div class="manufacture--info">
+    <div class="manufacture--amount">
+      <span [hidden]="false"><img src="assets/images/icon.png"></span>
+      <span [hidden]="false">45</span>
+    </div>
+
+    <div class="manufacture--buttons">
+      <input class="" type="button" [hidden]="false" value="Edit">
+      <input class="" type="button" [hidden]="false" value="Delete">
+      <input class="" type="button" [hidden]="true" value="Agree">
+      <input class="" type="button" [hidden]="true" value="Cancel">
+    </div>
+
+  </div>
+
+
+  <!--  </div>-->
 </div>
 
 

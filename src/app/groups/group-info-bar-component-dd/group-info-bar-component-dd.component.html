@@ -1,20 +1,38 @@
+<!--<div class="group-info">-->
+<!--  <div class="group-info&#45;&#45;name">-->
+<!--    <i class="icon"></i>-->
+<!--    <p [hidden]="false"></p>-->
+<!--    <input type="text" [hidden]="true">-->
+<!--  </div>-->
+
+<!--  <div class="group-info&#45;&#45;description">-->
+<!--    <p [hidden]="false"></p>-->
+<!--    <textarea [hidden]="true"></textarea>-->
+<!--  </div>-->
+
+<!--  <div class="group-info&#45;&#45;buttons">-->
+<!--    <button class="group-info&#45;&#45;buttons-edi button b-red icon-button" [hidden]="false">Edit</button>-->
+<!--    <button class="group-info&#45;&#45;buttons-delete button b-red icon-button" [hidden]="false">Delete</button>-->
+<!--    <button class="group-info&#45;&#45;buttons-agree button b-red icon-button" [hidden]="true">Agree</button>-->
+<!--    <button class="group-info&#45;&#45;buttons-cancel button b-red icon-button" [hidden]="true">Cancel</button>-->
+<!--  </div>-->
+
+<!--</div>-->
+
 <div class="group-info">
   <div class="group-info--name">
-    <i class="icon"></i>
-    <p [hidden]="false"></p>
-    <input type="text" [hidden]="true">
+    <span [hidden]="false"><img src="assets/images/icon.png"></span>
+    <span [hidden]="false">add_manufacturers</span>
+    <input type="text" [hidden]="true" />
   </div>
-
   <div class="group-info--description">
-    <p [hidden]="false"></p>
-    <textarea [hidden]="true"></textarea>
+    <textarea></textarea>
   </div>
-
   <div class="group-info--buttons">
-    <button class="group-info--buttons-edi button b-red icon-button" [hidden]="false">Edit</button>
-    <button class="group-info--buttons-delete button b-red icon-button" [hidden]="false">Delete</button>
-    <button class="group-info--buttons-agree button b-red icon-button" [hidden]="true">Agree</button>
-    <button class="group-info--buttons-cancel button b-red icon-button" [hidden]="true">Cancel</button>
+    <input type="button" [hidden]="false" value="EDIT"/>
+    <input type="button" [hidden]="false" value="DELTE"/>
+    <input type="button" [hidden]="true" value="AGREE"/>
+    <input type="button" [hidden]="true" value="CANCEL"/>
   </div>
-
 </div>
+

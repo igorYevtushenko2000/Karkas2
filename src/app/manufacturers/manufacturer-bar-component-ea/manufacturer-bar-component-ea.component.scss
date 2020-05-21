@@ -1,0 +1,26 @@
+.manufacture {
+  border: solid 1px;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+
+  &--name,
+  &--info,
+  &--amount,
+  &--buttons {
+    display: inline;
+    border: dashed aqua 2px;
+  }
+
+  &--name {
+    text-align: left;
+  }
+
+  &--info {
+    text-align: right;
+  }
+
+}
+
+
+
+

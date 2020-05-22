@@ -1,0 +1,90 @@
+.prod-info {
+  margin: 150px auto;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  background: #CCE5FF;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+
+  &--field {
+    padding: 5px;
+    border: none;
+
+
+    &--form {
+
+      &--name,
+      &--group,
+      &--description,
+      &--manufacture,
+      &--measure,
+      &--amount {
+        //border: black 1px solid;
+        border: none;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        margin: 10px;
+      }
+
+      &--name [targer="img"],
+      &--group [targer="img"],
+      &--description [targer="img"],
+      &--manufacture [targer="img"],
+      &--measure [targer="img"],
+      &--amount [targer="img"] {
+        text-align: center;
+      }
+
+      &--name span,
+      &--group span,
+      &--description span,
+      &--manufacture span,
+      &--measure span,
+      &--amount span {
+        text-align: left;
+      }
+
+
+      &--description [targer="descriptionShow"] {
+        overflow: hidden;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 10;
+        -webkit-box-orient: vertical;
+      }
+
+      &--name input,
+      &--group select,
+      &--description textarea {
+        font-size: 20px;
+        width: 250px;
+        border-radius: 20px;
+        //border: 1px solid #000;
+        border: none;
+        outline: none;
+        padding: 5px;
+      }
+
+
+    }
+  }
+
+  &--buttons {
+    //border: 1px solid #000;
+    border: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+
+    &--edit,
+    &--delete,
+    &--agree,
+    &--cancel {
+      // todo design for button
+    }
+
+  }
+}
+
+

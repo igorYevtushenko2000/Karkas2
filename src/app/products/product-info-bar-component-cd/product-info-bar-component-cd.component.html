@@ -1,34 +1,47 @@
-<form class="product-bar">
-  <div class="product-bar--info">
-    <i class="icon"></i>
-    <p class="product-bar--info-name"></p>
-  </div>
+<div class="prod-info">
+  <fieldset class="prod-info--field">
+    <form class="prod-info--field--form">
+      <div class="prod-info--field--form--name">
+        <span [hidden]="false" targer="img"><img src="assets/images/icon.png"/></span>
+        <input [hidden]="true" type="text"/>
+        <span [hidden]="false">Молоко Могилянське</span>
+      </div>
 
-  <div class="product-bar--info">
-    <i class="icon"></i>
-    <p class="product-bar--info-group"></p>
-  </div>
-  <div class="product-bar--info">
-    <i class="icon"></i>
-    <p class="product-bar--info-description"></p>
-  </div>
-  <div class="product-bar--info">
-    <i class="icon"></i>
-    <p class="product-bar--info-manufacturer"></p>
-  </div>
-  <div class="product-bar--info">
-    <i class="icon"></i>
-    <p class="product-bar--info-measure"></p>
-  </div>
-  <div class="product-bar--info">
-    <i class="icon"></i>
-    <p class="product-bar--info-total-cost"></p>
-  </div>
-  <div class="product-bar--buttons">
-    <button class="product-bar--buttons-edit">Edit</button>
-    <button class="product-bar--buttons-delete">Delete</button>
-  </div>
+      <div class="prod-info--field--form--group">
+        <span [hidden]="false" targer="img"><img src="assets/images/icon.png"/></span>
+        <select [hidden]="true"></select>
+        <span [hidden]="false">Продовольці товари</span>
+      </div>
 
+      <div class="prod-info--field--form--description">
+        <span [hidden]="false" targer="img"><img src="assets/images/icon.png"/></span>
+        <textarea [hidden]="true"></textarea>
+        <span targer="descriptionShow" [hidden]="false">При выборе кухонной мебели нужно учесть компоновку шкафов,расположение бытовой техники, функциональное наполнение модулей верхнего и нижнего яруса. От этих показателей будет зависеть эргономичность рабочего места для приготовления еды. На эксплуатационные качества кухонной мебели влияет уровень износостойкости При выборе кухонной мебели нужно учесть компоновку шкафов, расположение бытовой техники, функциональное наполнение модулей верхнего и нижнего яруса. От этих показателей будет зависеть эргономичность рабочего места для приготовления еды. На эксплуатационные качества кухонной мебели влияет уровень износостойкости</span>
+      </div>
+      <!--todo all time show description , please put in attr targer another meaning when Y want not see description-->
+      <div class="prod-info--field--form--manufacture">
+        <span [hidden]="false" targer="img"><img src="assets/images/icon.png"/></span>
+        <span [hidden]="false">ВИРОБНИК</span>
+      </div>
 
+      <div class="prod-info--field--form--measure">
+        <span [hidden]="false" targer="img"><img src="assets/images/icon.png"/></span>
+        <span [hidden]="false">MEASURE</span>
+      </div>
 
-</form>
+      <div class="prod-info--field--form--amount">
+        <span [hidden]="false" targer="img"><img src="assets/images/icon.png"/></span>
+        <span [hidden]="false">AMOUNT</span>
+      </div>
+    </form>
+  </fieldset>
+
+  <div class="prod-info--buttons">
+    <input class="prod-info--buttons--edit" type="image" src="assets/images/icon.png" [hidden]="false"/>
+    <input class="prod-info--buttons--delete" type="image" src="assets/images/icon.png" [hidden]="false"
+           value="DELETE"/>
+    <input class="prod-info--buttons--agree" type="image" src="assets/images/icon.png" [hidden]="true"/>
+    <input class="prod-info--buttons--cancel" type="image" src="assets/images/icon.png" [hidden]="true"/>
+  </div>
+</div>
+

@@ -1,20 +1,32 @@
-<div class="header">
-  <div class="header-storage">
-    <a class="header-storage--name">storage</a>
-  </div>
-  <div class="header-storage">
-    <a class="header-storage--menu">Products</a>
-    <a class="header-storage--menu">Groups</a>
-    <a class="header-storage--menu">Statistics</a>
-    <a class="header-storage--menu">Manufacturers</a>
-    <a class="header-storage--menu">Users</a>
-    <a class="header-storage--menu">Roles</a>
-    <a class="header-storage--menu">Permissions</a>
-  </div>
-  <div class="header-storage">
-    <a class="storage-storage--username">User.name</a>
-  </div>
-</div>
+<header class="header">
+  <a class="storage">STORAGE</a>
+  <nav >
+    <ul class="header-menu" id="menuBar">
+      <li><a>PRODUCT</a></li>
+      <li><a>GROUPS</a></li>
+      <li><a>STATISTICS</a></li>
+      <li><a>MANUFACTURES</a></li>
+      <li><a>USERS</a></li>
+      <li><a>ROLES</a></li>
+      <li><a>PERMISSIONS</a></li>
+      <li><a class="icon" onclick="choose()"><img src="assets/icons/menu.png"/></a></li>
+
+    </ul>
+  </nav>
+  <a class="user">USERNAME SURNAME</a>
+</header>
+
+
+<script>
+  function choose() {
+    var x = document.getElementById("menuBar");
+    if (x.className === "header-menu") {
+      x.className += " responsive";
+    }else {
+      x.className = "header-menu";
+    }
+  }
+</script>
 
 
 

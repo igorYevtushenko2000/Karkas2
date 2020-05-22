@@ -11,5 +11,4 @@ export class NavComponentBaComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

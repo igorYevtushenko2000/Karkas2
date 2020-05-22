@@ -1,0 +1,91 @@
+li,
+a,
+button {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 10px;
+  background: #C4CAD1;
+}
+
+.header-menu .icon {
+  display: none;
+}
+
+.user {
+  margin-left: auto;
+}
+
+.header-menu {
+  list-style: none;
+}
+
+.header-menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-menu li a {
+  transition: all 0.3s ease 0s;
+}
+
+.header-menu li a:hover {
+  color: green;
+}
+
+@media (max-width: 1000px) {
+  li,
+  a,
+  button {
+    font-size: 14px;
+  }
+
+  .header-menu li {
+    display: inline-block;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 900px) {
+  li,
+  a,
+  button {
+    font-size: 12px;
+  }
+
+  .header-menu li {
+    display: inline-block;
+    padding: 0 4px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .header-menu li a  {display: none;}
+  .header-menu li a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .menu-Bar.responsive {position: relative;}
+  .menu-Bar.responsive  .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu-Bar.responsive  a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+

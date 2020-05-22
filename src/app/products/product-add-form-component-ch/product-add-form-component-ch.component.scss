@@ -1,0 +1,65 @@
+h2,
+fieldset {
+  margin: 0;
+}
+
+.product-form {
+
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 2px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+
+.product-form {
+  margin: 150px auto;
+  width: 400px;
+  border-radius: 45px;
+
+  h2 {
+    background-color: #C4CAD1;
+    border-radius: 30px 30px 0 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  fieldset {
+    background: #CCE5FF;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
+    position: relative;
+  }
+
+  &--name input,
+  &--description textarea,
+  &--measure select,
+  &--manufacturer select,
+  &--group select,
+  &--amount input,
+  &--price input {
+    font-size: 20px;
+    width: 300px;
+  }
+  &--description textarea {
+    height: 250px;
+  }
+
+  &--buttons {
+    text-align: center;
+  }
+
+
+}

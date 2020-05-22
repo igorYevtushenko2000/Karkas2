@@ -12,7 +12,9 @@ input {
   font-family: inherit;
   font-size: inherit;
   margin: 2px;
-  //padding: 5px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px;
   outline: none;
 }
 
@@ -39,15 +41,22 @@ input {
 .group-form {
   margin: 150px auto;
   width: 400px;
-  background-color: aqua;
   border-radius: 45px;
 }
 
-.group-form input,
-.group-form textarea {
-  font-size: 25px;
+.group-form--name input,
+.group-form  textarea {
+  font-size: 20px;
+  width: 300px;
+
 }
 
 .group-form textarea {
   height: 250px;
+}
+
+// todo icon and description (raise icon or lower description)
+
+.group-form--buttons {
+  text-align: center;
 }
